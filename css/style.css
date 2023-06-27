@@ -23,3 +23,20 @@
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
+
+.pagina {
+    background-color: #eef3f5 ;
+    height: 1000px;
+}
+
+.button{
+    background-color: white;
+}
+
+.menu {
+    height: 800px;
+    border: 15px ;
+    margin: 100px;
+    padding: 15px;
+    background-color: white;
+}
