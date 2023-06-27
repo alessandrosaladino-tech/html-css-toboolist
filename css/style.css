@@ -63,11 +63,37 @@
     text-align: center;
 }
 
+.cross { 
+    color: rgb(251, 7, 7);
+    border-radius: 50%;
+    border: solid rgb(251, 7, 7);
+    display: inline-block;
+    width: 17px;
+    font-size: 10px;
+    text-align: center;
+
+}
 .ttodo {
     display: inline-block;
     padding-left: 6px;
     vertical-align: text-bottom;
 }
+
+.colored_box{
+    display: inline-block;
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 5px;
+    text-align: center;
+}
+
+#color1 {
+    background-color: #14aaf5;
+    color: white;
+}
+/*end utilities*/
 
 #button1 {
     background-color: #14aaf5;
@@ -98,7 +124,11 @@
 }
 
 .option_text {
-    padding-top: 13px;
+    padding-top: 5px;
+}
+
+.option_title {
+    padding-bottom: 40px;
 }
 
 
