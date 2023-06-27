@@ -16,6 +16,10 @@
 
 }
 
+body {
+    background-color: #eef3f5 ;
+}
+
 .titolo_pagina {
    display: inline-block;
    vertical-align: 60%;
@@ -24,10 +28,6 @@
     
 }
 
-.pagina {
-    background-color: #eef3f5 ;
-    height: 800px;
-}
 
 .Button{
     background-color: white;
@@ -38,11 +38,9 @@
 }
 
 .menu {
-    display: inline-block;
     height: 650px;
     width: 800px;
-    margin: 90px;
-    margin-top: 60px;
+    margin:90px auto;
     background-color: white;
 
 }
@@ -121,6 +119,11 @@
 
 #color7 {
     background-color: #d7eaa5e4;
+    color: white;
+}
+
+#color8 {
+    background-color: #50c1f1a1;
     color: white;
 }
 
