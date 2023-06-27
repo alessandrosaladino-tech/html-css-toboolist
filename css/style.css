@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    background-color: #ffffff;
+    
+}
+
+#img_logo {
+    padding: 15px;
+    padding-right: 10px;
+    
+
+}
+
+.titolo_pagina {
+   display: inline-block;
+   vertical-align: 60%;
+   font-size: 2.5rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
