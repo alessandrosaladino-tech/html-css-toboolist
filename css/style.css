@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,30 +6,31 @@
 
 .logo {
     background-color: #ffffff;
-    
+
 }
 
 #img_logo {
     padding: 15px;
     padding-right: 10px;
-    
+
 
 }
 
 body {
-    background-color: #eef3f5 ;
+    background-color: #eef3f5;
+    font-family: Arial, sans-serif;
 }
 
 .titolo_pagina {
-   display: inline-block;
-   vertical-align: 60%;
-   font-size: 2.5rem;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    display: inline-block;
+    vertical-align: 60%;
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 
-.Button{
+.Button {
     background-color: white;
     border-bottom: 1px solid #e4e8e9;
     padding-top: 1rem;
@@ -40,7 +41,7 @@ body {
 .menu {
     height: 650px;
     width: 800px;
-    margin:90px auto;
+    margin: 90px auto;
     background-color: white;
 
 }
@@ -48,38 +49,43 @@ body {
 /*utilities*/
 .frecce {
     display: inline-block;
-   font-size: 15px;
+    font-size: 15px;
 }
 
 .tick {
-    color: rgb(6, 252, 6);
+    color: #2fc7ac;
     border-radius: 50%;
-    border: solid rgb(6, 252, 6);
+    border: 1px solid #2fc7ac;
     display: inline-block;
-    width: 17px;
-    font-size: 10px;
+    width: 1rem;
+    font-size: 0.7rem;
     text-align: center;
+    line-height: 1rem;
+    height: 1rem;
 }
 
-.cross { 
-    color: rgb(251, 7, 7);
+.cross {
+    color: #ff4141;
     border-radius: 50%;
-    border: solid rgb(251, 7, 7);
+    border: 1px solid #ff4141;
     display: inline-block;
-    width: 17px;
-    font-size: 10px;
+    width: 1rem;
+    font-size: 0.5rem;
     text-align: center;
+    line-height: 1rem;
+    height: 1rem;
 
 }
+
 .ttodo {
     display: inline-block;
     padding-left: 6px;
     vertical-align: text-bottom;
 }
 
-.colored_box{
+.colored_box {
     display: inline-block;
-    width: 70px;
+    width: 75px;
     height: 25px;
     border-radius: 10px;
     font-size: 13px;
@@ -88,42 +94,42 @@ body {
 }
 
 #color1 {
-    background-color: #14aaf5;
+    background-color: #09a9ed;
     color: white;
 }
 
 #color2 {
-    background-color: #50c1f1a1;
+    background-color: #09a9ed;
     color: white;
 }
 
 #color3 {
-    background-color: #c99beda3;
+    background-color: #ab5de6;
     color: white;
 }
 
 #color4 {
-    background-color: #8fded2c1;
+    background-color: #2cc6ab;
     color: white;
 }
 
 #color5 {
-    background-color: #f8deb3dd;
+    background-color: #ff9b00;
     color: white;
 }
 
 #color6 {
-    background-color:#f2abd0da;
+    background-color: #ec4a9d;
     color: white;
 }
 
 #color7 {
-    background-color: #d7eaa5e4;
+    background-color: #a3d116;
     color: white;
 }
 
 #color8 {
-    background-color: #50c1f1a1;
+    background-color: #09a9ed;
     color: white;
 }
 
@@ -131,13 +137,14 @@ body {
 /*end utilities*/
 
 #button1 {
-    background-color: #14aaf5;
+    background-color: #09a9ed;
     border-radius: 10px;
     color: white;
     width: 80px;
     height: 30px;
     border: solid #14aaf5;
 }
+
 #button2 {
     background-color: white;
     border-radius: 10px;
@@ -152,7 +159,7 @@ body {
     color: #494e56;
 }
 
-.titoli{
+.titoli {
     display: inline-block;
     color: #494e56;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -165,5 +172,3 @@ body {
 .option_title {
     padding-bottom: 40px;
 }
-
-
